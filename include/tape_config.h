@@ -8,6 +8,7 @@ struct tape_config {
   int rewind_delay_ms = 5;
   int step_delay_ms = 0;
   std::size_t memory_limit_bytes = 1024 * 1024;
+  int temp_tapes_count = 4;
   std::string config_path = "config.cfg";
 };
 
